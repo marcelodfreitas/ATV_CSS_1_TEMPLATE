@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+
+body {
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #61a89b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #905092;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4, h5, h6 {
+    font-size: 22px;
+}
+
+iframe {
+    width: 30vw;
+    height: 30vh;
+}
+
+table {
+    border-style: dashed;
+    border-color: #eaff05;
+    width: 30vw;
+    height: 30vh;
+    border-collapse: collapse;
+    
+}
+
+td:nth-child(even) {
+    background-color: yellow;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+ul {
+    list-style-type:circle;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+caption {
+    border-bottom: 3px solid yellow;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 5px;
+}
+
+th {
+    background-color: #a520e3;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+dl {
+    border: 1px solid #000;
+    width: 30vw;
+    background-color: aliceblue;
+}
